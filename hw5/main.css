@@ -1,0 +1,51 @@
+
+body {
+    margin: 0;
+}
+
+.F {
+    display: flex;
+}
+
+.A {
+    display: flex;
+    width: 700px;
+    height: 80px;
+    column-gap: 50px;
+    background: green;
+    border: 2px solid blue;
+}
+
+.B {
+    display: flex;
+    width: 550px;
+    height: 80px;
+    column-gap: 50px;
+    background: green;
+    border: 2px solid red;
+}
+
+.C {
+    display: flex;
+    width: 146px;
+    height: 80px;
+    column-gap: 50px;
+    background: green;
+    border: 2px solid yellow;
+}
+
+@media screen and (max-width: 704px) {
+    .F {
+        flex-direction: column;
+        /* row-gap: 30px; */
+    }
+
+    .B {
+        width: 700px;
+    }
+    .C {
+        width: 700px;
+    }
+
+}
+
